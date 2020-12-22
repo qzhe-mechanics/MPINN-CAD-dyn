@@ -1,0 +1,119 @@
+Problem & data set: i-CAD 42
+test: Nk: 40, Nh: 40, Nf: 2000, N_c: 100, N_fc: 20000
+seed: 111, # Initial: 1
+Measurement Seed: 111, type: 1
+BCs for h: 1
+para: para_k: 1.0, para_h: 1.0, para_kh: 1.0, para_c: 1.0, para_khc: 1.0
+NN architecture: 56 56 56
+Optimier: 2 400 300000 0.0002 BFGS 0.0
+Regularization & coefficient: 0 1e-08 | loss lsty = 0
+Assimilate C data: False 0
+test type: ts-05-20, test time: [0.00833333 0.01666667 0.025      0.03333333 0.04166667 0.05
+ 0.05833333 0.06666667 0.075      0.08333333 0.09166667 0.1
+ 0.10833333 0.11666667 0.125      0.13333333 0.14166667 0.15
+ 0.15833333 0.16666667 0.175      0.18333333 0.19166667 0.2
+ 0.20833333 0.21666667 0.225      0.23333333 0.24166667 0.25
+ 0.25833333 0.26666667 0.275      0.28333333 0.29166667 0.3
+ 0.30833333 0.31666667 0.325      0.33333333]
+Optimier for Darcy: Empty
+Analysis: t_min = 0.008333333333333333, t_max = 0.3333333333333333, Nt = 39
+
+
+seed_tf: 111
+k nor: 1.000000e+00, h nor 1.313600e+01, c nor 9.581580e-01
+k std: 1.852558e-01, h: std 4.741106e+00, c: std 2.137533e-01
+Before use BFGS - Iteration:  299999 | Loss:  4.456e-05 | Loss_k:  6.583e-06 | Loss_h:  1.487e-06 | Loss_c:  2.783e-06
+--- Loss_f:  1.611e-05 | Loss_fc:  1.064e-05 | Loss_cN1:  1.354e-07 | Loss_cN2:  1.107e-06
+BFGS Training Time: 4.76837158203125e-07
+Total Iteration:  1 | loss:  4.456490e-05
+Model saved in path: ../MsDINN-CAD-output/dyn_v3_iCAD/test_ts42_new/Linx_ts0520_op2m400i30w_bf_lr2e4_nc56_nt39fc20k_Kh40C100/tf_model_r111_s0_k40_h40_f2000_c100_fc20000/train_model
+Training time for CAD:  9946.1274
+----------------------------------
+Total Training time:  9946.1275
+Final: Problem type: i-CAD
+Loss_k: 6.583357844647253e-06 | Loss_h: 1.4869438018649817e-06 | Loss_f: 1.611064544704277e-05
+Loss_c: 2.7826179120893357e-06 | Loss_fc: 1.0641969311109278e-05 | loss_cN1: 1.3537515997086302e-07 | loss_cN2: 1.107003186007205e-06
+Error k:  4.238471e-02 | Error k-mean:  6.470986e-02 | Error k-inf:  3.121693e-02
+Error h:  4.538801e-03 | Error h-mean:  8.290857e-03 | Error h-inf:  1.543632e-01
+Time: 0.5 min
+Error c:  6.946099e-02 | Error c-mean:  7.004025e-02 | Error c-inf:  3.375027e-02
+Time: 1.0 min
+Error c:  4.624000e-02 | Error c-mean:  4.692776e-02 | Error c-inf:  2.529909e-02
+Time: 1.5 min
+Error c:  4.342949e-02 | Error c-mean:  4.437648e-02 | Error c-inf:  2.436852e-02
+Time: 2.0 min
+Error c:  3.759761e-02 | Error c-mean:  3.869854e-02 | Error c-inf:  1.935234e-02
+Time: 2.5 min
+Error c:  3.198350e-02 | Error c-mean:  3.317682e-02 | Error c-inf:  1.441965e-02
+Time: 3.0 min
+Error c:  2.799019e-02 | Error c-mean:  2.927520e-02 | Error c-inf:  1.299866e-02
+Time: 3.5 min
+Error c:  2.539468e-02 | Error c-mean:  2.679451e-02 | Error c-inf:  1.231601e-02
+Time: 4.0 min
+Error c:  2.346039e-02 | Error c-mean:  2.498523e-02 | Error c-inf:  1.146948e-02
+Time: 4.5 min
+Error c:  2.167394e-02 | Error c-mean:  2.331196e-02 | Error c-inf:  1.072233e-02
+Time: 5.0 min
+Error c:  1.991601e-02 | Error c-mean:  2.164691e-02 | Error c-inf:  1.050872e-02
+Time: 5.5 min
+Error c:  1.836903e-02 | Error c-mean:  2.018852e-02 | Error c-inf:  1.055665e-02
+Time: 6.0 min
+Error c:  1.728630e-02 | Error c-mean:  1.922330e-02 | Error c-inf:  1.050403e-02
+Time: 6.5 min
+Error c:  1.673468e-02 | Error c-mean:  1.884270e-02 | Error c-inf:  1.037844e-02
+Time: 7.0 min
+Error c:  1.649587e-02 | Error c-mean:  1.881917e-02 | Error c-inf:  1.020471e-02
+Time: 7.5 min
+Error c:  1.623326e-02 | Error c-mean:  1.877729e-02 | Error c-inf:  1.000864e-02
+Time: 8.0 min
+Error c:  1.575109e-02 | Error c-mean:  1.848590e-02 | Error c-inf:  9.805125e-03
+Time: 8.5 min
+Error c:  1.511782e-02 | Error c-mean:  1.801416e-02 | Error c-inf:  9.612564e-03
+Time: 9.0 min
+Error c:  1.458500e-02 | Error c-mean:  1.765640e-02 | Error c-inf:  9.438428e-03
+Time: 9.5 min
+Error c:  1.436808e-02 | Error c-mean:  1.768135e-02 | Error c-inf:  9.464916e-03
+Time: 10.0 min
+Error c:  1.447606e-02 | Error c-mean:  1.811772e-02 | Error c-inf:  9.564919e-03
+Time: 10.5 min
+Error c:  1.474725e-02 | Error c-mean:  1.877901e-02 | Error c-inf:  9.644048e-03
+Time: 11.0 min
+Error c:  1.500055e-02 | Error c-mean:  1.944008e-02 | Error c-inf:  9.694831e-03
+Time: 11.5 min
+Error c:  1.512781e-02 | Error c-mean:  1.995539e-02 | Error c-inf:  9.718719e-03
+Time: 12.0 min
+Error c:  1.509920e-02 | Error c-mean:  2.027385e-02 | Error c-inf:  9.714057e-03
+Time: 12.5 min
+Error c:  1.493416e-02 | Error c-mean:  2.040825e-02 | Error c-inf:  9.682049e-03
+Time: 13.0 min
+Error c:  1.467314e-02 | Error c-mean:  2.040230e-02 | Error c-inf:  9.626378e-03
+Time: 13.5 min
+Error c:  1.436006e-02 | Error c-mean:  2.030861e-02 | Error c-inf:  9.564331e-03
+Time: 14.0 min
+Error c:  1.403312e-02 | Error c-mean:  2.017617e-02 | Error c-inf:  9.510329e-03
+Time: 14.5 min
+Error c:  1.372173e-02 | Error c-mean:  2.004520e-02 | Error c-inf:  9.437731e-03
+Time: 15.0 min
+Error c:  1.344658e-02 | Error c-mean:  1.994616e-02 | Error c-inf:  9.348622e-03
+Time: 15.5 min
+Error c:  1.322197e-02 | Error c-mean:  1.990216e-02 | Error c-inf:  9.379921e-03
+Time: 16.0 min
+Error c:  1.305895e-02 | Error c-mean:  1.993275e-02 | Error c-inf:  9.463443e-03
+Time: 16.5 min
+Error c:  1.296878e-02 | Error c-mean:  2.005885e-02 | Error c-inf:  9.542717e-03
+Time: 17.0 min
+Error c:  1.296557e-02 | Error c-mean:  2.030673e-02 | Error c-inf:  9.618402e-03
+Time: 17.5 min
+Error c:  1.306782e-02 | Error c-mean:  2.071049e-02 | Error c-inf:  9.704043e-03
+Time: 18.0 min
+Error c:  1.329815e-02 | Error c-mean:  2.131191e-02 | Error c-inf:  9.785479e-03
+Time: 18.5 min
+Error c:  1.368136e-02 | Error c-mean:  2.215738e-02 | Error c-inf:  9.856975e-03
+Time: 19.0 min
+Error c:  1.424132e-02 | Error c-mean:  2.329284e-02 | Error c-inf:  9.918308e-03
+Time: 19.5 min
+Error c:  1.499736e-02 | Error c-mean:  2.475749e-02 | Error c-inf:  9.968316e-03
+Time: 20.0 min
+Error c:  1.596181e-02 | Error c-mean:  2.657919e-02 | Error c-inf:  1.004274e-02
+
+
